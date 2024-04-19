@@ -17,13 +17,13 @@ public class SwaggerConfig {
 		OpenAPI openAPI = new OpenAPI()
 				.components(new Components())
 				.info(new Info()
-						.title("API Usuários - COTI Informática")
+						.title("API Usuários - ASS")
 						.description("API Spring Boot para controles de Usuários.")
 						.version("v1")
 						.contact(new Contact()
-								.name("COTI Informática")
-								.email("contato@cotiinformatica.com.br")
-								.url("http://www.cotiinformatica.com.br")));
+								.name("Alex Soares")
+								.email("alexsaosilva@gmail.com")
+								.url("https://github.com/Led-ds/api-user")));
 		
 		return openAPI;
 	}
